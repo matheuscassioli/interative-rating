@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+body .first-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 330px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 330px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #dad8d8;
+}
+
+body .first-page p {
+  font-weight: 400;
+  color: #999595;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body .first-page img {
+  width: 15px;
+  margin-left: 20px;
+}
+
+body .first-page .myButton {
+  background-color: #fa9820;
+  border-radius: 28px;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #e0dbaa;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #fff;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+}
+
+body .first-page .myButton:hover {
+  background-color: #ffffff;
+  color: orange;
+  font-weight: bold;
+}
+
+body .first-page .myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+body .first-page .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #999595;
+}
+
+body .first-page .all .one, body .first-page .all .two, body .first-page .all .three, body .first-page .all .four, body .first-page .all .five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .first-page .all div:hover {
+  background-color: #757474;
+  border-radius: 20px;
+  color: #fff;
+}
+
+body .second-page {
+  display: none;
+}
+
+.first-page-none {
+  display: none;
+}
+
+.second-page-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 330px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 330px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-page-flex .icon-back {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.second-page-flex .icon-back:hover {
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.second-page-flex img {
+  width: 160px;
+}
+
+.second-page-flex p:nth-child(3) {
+  font-size: 12px;
+  color: #f39049;
+  font-weight: 400;
+}
+
+.second-page-flex p:nth-child(4) {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.second-page-flex p:nth-child(5) {
+  text-align: center !important;
+  color: #8d8989;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.four12 {
+  background-color: orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */

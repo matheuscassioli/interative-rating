@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./main.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-star.svg">
+
+  <title>Interactive rating component</title>
+
+</head>
+
+<body>
+  <div class="first-page" id="idfirstpage">
+    <img src="./images/icon-star.svg" alt="">
+    <h2>How did we do?</h2>
+
+    <p>Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+
+    <div class="all" id="todos">
+      <div class="one" id="one" onclick="mudaBackground()">1</div>
+      <div class="two" id="two" onclick="mudaBackground1()">2</div>
+      <div class="three" id="three" onclick="mudaBackground2()">3</div>
+      <div class="four" id="four" onclick="mudaBackground3()">4</div>
+      <div class="five" id="five" onclick="mudaBackground4()">5</div>
+    </div>
+
+    <div class="submit">
+      <a href="#" class="myButton" onclick="chamaPagina()">SUBMIT</a>
+    </div>
+
+  </div>
+
+  <div class="second-page" id="idsecondpage">
+
+    <img src="./images/icon-back.png" class="icon-back" onclick="voltarPagina()" alt="">
+
+    <img src="./images/illustration-thank-you.svg" alt="">
+
+    <p>You selected 4 out of 5</p>
+
+    <p>Thank You!</p>
+
+    <p>We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+
+  </div>
+
+</body>
+
+</html>
